@@ -23,13 +23,14 @@ We original raw text dataset can be retreived from this [link](witten-1999).
 Reference keyphrases are in json format and named according to the following
 rules:
 
-  [test|train].author.[stem]?.json
+    [test|train].author.[stem]?.json
 
 author-provided (stemmed or not) reference keyphrases for test or train splits.
 
 Stemming (if applied), is performed with nltk Porter algorithm (English).
 
 Below is a toy example of reference file:
+
     {
         "doc-1": [
             [
