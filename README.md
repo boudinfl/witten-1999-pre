@@ -18,7 +18,7 @@ Each input file is processed using the Stanford CoreNLP suite v3.6.0.
 We use the default parameters and perform tokenization, sentence splitting and
 Part-Of-Speech (POS) tagging. Files are in XML format.
 
-We original raw text dataset can be retreived from this [link](witten-1999).
+Original raw text dataset can be retreived from this [link](witten-1999).
 
 Reference keyphrases are in json format and named according to the following
 rules:
